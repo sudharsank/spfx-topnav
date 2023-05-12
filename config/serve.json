@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://m365devpractice.sharepoint.com/sites/IHHPortal/SitePages/Workout.aspx",
+      "customActions": {
+        "954cc86c-9c76-414a-8107-9e46539e6722": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "globalNav": {
+      "pageUrl": "https://m365devpractice.sharepoint.com/sites/IHHPortal/SitePages/Workout.aspx",
+      "customActions": {
+        "954cc86c-9c76-414a-8107-9e46539e6722": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
